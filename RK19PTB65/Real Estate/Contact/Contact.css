@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* File tab sitting is done here */
+.file-tab
+{
+    width: 200px;
+    background-color: black;
+    text-align: center;
+    padding-top: 155px;
+    padding-bottom: 155px;
+    position: fixed;
+    z-index: 1;
+}
+
+.file-tab p{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.file-tab a{
+    float: inline-start;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+.file-tab a:hover{
+    color: hotpink;
+}
+
+
+/* Profile information */
+
+.contacts{
+    
+    background-color: rgba(209, 201, 201, 0.644);
+    color: rgb(129, 129, 129);
+    margin-left: 200px;
+    text-align: justify;
+    padding: 40px;
+    font-size: 20px;
+}
+.contacts .images{
+    text-align: center;
+}
+.contacts .images img{
+    width: 50px;
+    border-radius: 30%;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.Profile{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 40px;
+}
+.Profile .content{
+    text-align: center;
+}
+
+.Profile .content a{
+    text-decoration: none;
+    color: rgb(225, 255, 118);
+}

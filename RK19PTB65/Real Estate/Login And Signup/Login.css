@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("Images/1.jpg");
+    width: 1536px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+/* File tab sitting is done here */
+.file-tab
+{
+    width: 200px;
+    background-color: black;
+    text-align: center;
+    padding-top: 155px;
+    padding-bottom: 155px;
+    position: fixed;
+    z-index: 0;
+}
+
+.file-tab p{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.file-tab a{
+    float: inline-start;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+.file-tab a:hover{
+    color: hotpink;
+}
+
+/* Login form settings starts from here */
+
+.main{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 500px;
+    padding-right: 80px;
+    background:rgba(45, 46, 46, 0.795);
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    z-index: 1;
+}
+.main p{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 10px;
+    padding-top: 40px;
+    margin-left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 10px;
+}
+.form_text{
+    padding:30px 20px;
+    border-radius: 10px;
+    
+}
+
+.form_text .submit-f{
+    margin-top: 20px;
+    margin-left: 100px;
+    text-align: center;
+    
+}
+.form_text label{
+    margin-left: 100px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.form_text input{
+    padding: 10px;
+    border-radius:10px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(71, 70, 70, 0);
+    border: none;
+    border-bottom: grey solid 2px;
+    width: 300px;
+    color: #fff;
+    margin-left: 100px;
+}
+.form_text .submit-f button{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(70, 71, 71, 0.568);
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+    margin-bottom: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+.form_text .submit-f a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.form_text .submit-f button:hover{
+    background-color: rgba(133, 134, 131, 0.582);
+}

@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("images/1.jpg");
+    background-repeat:no-repeat ;
+}
+/* Setting of heading starts form here */
+/* File tab sitting is done here */
+.file-tab
+{
+    position: fixed;
+    width: 200px;
+    background-color: black;
+    text-align: center;
+    padding-top: 155px;
+    padding-bottom: 155px;
+    z-index: 1;
+}
+
+.file-tab p{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.file-tab a{
+    float: inline-start;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+.file-tab a:hover{
+    color: hotpink;
+}
+
+
+/* Form for SIGNING UP ANY FILE STARTS FROM HERE */
+.main{
+    margin-bottom: 100px;
+    margin-left: 550px;
+    width: 550px;
+    background:rgba(200, 255, 128, 0.63);
+    border-radius: 40px;
+    box-shadow: 20px 10px 5px rgba(87, 85, 85, 0.685);
+    font-family: 'Times New Roman', Times, serif;
+}
+.main p{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    background-color: rgb(255, 220, 105);
+}
+
+.main label
+{
+    font-size: 20px;
+}
+.main .change
+{
+    font-size: 15px;
+    width: 300px;
+    padding: 20px;
+    margin-top: 15px;
+    border: none;
+    border-bottom: grey solid 2px;
+    border-radius: 10px;
+    background:none;
+}
+.main label, .change {
+    margin-left: 90px;
+    
+}
+
+.form_text{
+    
+    padding:10px 20px;
+}
+.form_text select{
+    font-family: cursive;
+    background-color: rgba(158, 155, 155, 0.863);
+}
+.form_text .submit-f{
+    text-align: center;
+}
+
+.allgender
+{
+    margin-left: 160px;
+    font-size: 20px;
+}
+
+.allgender input{
+    margin-top: 15px;
+}
+
+.submit{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.submit button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    box-shadow: 5px 5px 3px black;
+    background-color: rgb(95, 91, 91);
+    cursor: pointer;
+}
+
+
+/* Profile information */
+
+.contacts{
+    background-color: rgba(209, 201, 201, 0.644);
+    color: rgb(129, 129, 129);
+    margin-left: 200px;
+    text-align: justify;
+    padding: 40px;
+    font-size: 20px;
+}
+.contacts .images{
+    text-align: center;
+}
+.contacts .images img{
+    width: 50px;
+    border-radius: 30%;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.Profile{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 40px;
+}
+.Profile .content{
+    text-align: center;
+}
+
+.Profile .content a{
+    text-decoration: none;
+    color: rgb(225, 255, 118);
+}

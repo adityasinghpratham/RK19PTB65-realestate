@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("../Images/r2.jpg");
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* File tab sitting is done here */
+.file-tab
+{
+    position: relative;
+    width: 200px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 155px;
+    padding-bottom: 155px;
+    position: fixed;
+    z-index: 1;
+}
+
+.file-tab p{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.file-tab a{
+    float: inline-start;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+.file-tab a:hover{
+    color: hotpink;
+}
+/* setting all the things here */
+
+.first{
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+
+.first .content{
+    top: 0;
+    left: 0;
+    z-index: 1;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 40px;
+    border-radius: 40px;
+    color: #fff;
+    background-color: rgba(104, 103, 103, 0.726);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.664);
+}
+.first .content h1{
+    font-size: 60px;
+}
+
+.first .content .price{
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    border-left: black 2px solid;
+}
+
+.first .content .highlights{
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: auto auto;
+    font-size: 20px;
+}
+/* ********************* */
+.first .bhk{
+    background-color: rgba(255, 243, 133, 0.699);
+    margin-left: 200px;
+    margin-top: 40px;
+    margin-right: 200px;
+    text-align: center;
+    border-radius: 40px;
+    padding: 50px 0px;
+
+}
+.first .bhk-images{
+
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.first .bhk-images img{
+    width: 400px;
+    border-radius: 50px;
+    padding: 20px;
+}
+.first h2{
+    color:#fff;
+    margin-top: 20px;
+    font-size: 60px;
+}
+/* *****************images/**************** */
+.first .images{
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 40px;
+    border-radius: 50px;
+    background-color: rgba(59, 60, 61, 0.61);
+    padding: 40px;
+}
+.images1{
+    border-radius: 10px;
+}
+.images2{
+    border-radius: 40px;
+    margin-left: 40px;
+}
+.images3{
+    border-radius: 40px;
+}
+
+.images4{
+    border-radius: 40px;
+    margin-left: 300px;
+}
+.images5{
+    border-radius: 40px;
+}
+
+
+
+/* Profile information */
+
+.contacts{
+
+    background-image: radial-gradient(red,black);
+    color: rgb(129, 129, 129);
+    margin-left: 200px;
+    text-align: justify;
+    padding: 40px;
+    font-size: 20px;
+}
+.contacts .images{
+    text-align: center;
+}
+.contacts .images img{
+    width: 50px;
+    border-radius: 30%;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.Profile{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 40px;
+}
+.Profile .content{
+    text-align: center;
+}
+
+.Profile .content a{
+    text-decoration: none;
+    color: rgb(225, 255, 118);
+}

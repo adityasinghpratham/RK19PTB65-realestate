@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBox- Login</title>
+    <link rel="stylesheet" href="Login.css">
+
+</head>
+<body>
+    <div class="file-tab">
+        <p><a href="../main.html">HOME</a></p>
+        <p><a href="../Properties/Propeties.html">PROPERTIES</a></p>
+        <p><a href="../Documentation/Documentation.html">DOCUMENTATION</a></p>
+        <p><a href="../About/About.html">ABOUT</a></p>
+        <p><a href="../Contact/Contact.html">CONTACT</a></p>
+        <p><a href="Signup.html">SIGNUP</a></p>
+        <p><a href="#">LOGIN</a></p>
+    </div>
+
+    <div class="main">
+        <p>Login</p>
+    <form class="form_text">
+        <!--label is used to bind with the form-->
+        <label >Username :</label><br>
+        <input id="Name" type="text"> <br><br>     
+        <label>Password :</label><br>
+        <input id="Pass" type="password"><br><br>
+        <div class="submit-f">
+        <button type="submit" onclick="getdata()">Submit</button>
+        <button><a href="html_forms.html">Sign Up</a></button>
+        </div>
+    </form>
+</div>
+
+
+
+
+<script>
+
+    function getdata(){
+        var username=document.getElementById("Name").value;
+        var password=document.getElementById("Pass").value;
+        console.log(username);
+        console.log(password);
+    }
+    getdata();
+</script>
+</body>
+</html>

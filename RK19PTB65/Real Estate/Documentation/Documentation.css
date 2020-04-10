@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* File tab sitting is done here */
+.file-tab
+{
+    width: 200px;
+    background-color: black;
+    text-align: center;
+    padding-top: 155px;
+    padding-bottom: 155px;
+    margin-top: 0px;
+    position: fixed;
+    z-index: 1;
+}
+
+.file-tab p{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.file-tab a{
+    float: inline-start;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+.file-tab a:hover{
+    color: hotpink;
+}
+
+/* Documentation on the topic real estate */
+
+.documentation{
+    margin-left: 300px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    background-color: cornsilk;
+    padding: 10px 40px;
+    border-radius: 40px;
+    z-index: 0;
+}
+.documentation .info{
+    margin-bottom: 40px;
+}
+.documentation .info h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.documentation .info p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.documentation .info .pros{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    
+}
+.documentation .info .pros .cons{
+    background-color: rgba(255, 253, 138, 0.712);
+    padding: 20px 40px;
+    border-radius: 40px;
+    margin-bottom: 30px;
+    width: 350px;
+    box-shadow: 10px 10px 5px rgba(255, 244, 142, 0.644);
+}
+.documentation .info .pros .cons h3{
+    font-size: 30px;
+}
+
+.documentation .info .pros .cons p{
+    font-size: 18px;
+}
+
+/* footer profile */
+.footer{
+    background-color: burlywood;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.footer .sites img{
+    width: 100px;
+    height: 50px;
+}
+
+.contacts{
+    background-color: rgba(209, 201, 201, 0.644);
+    color: rgb(129, 129, 129);
+    margin-top: 40px;
+    margin-left: 200px;
+    text-align: justify;
+    padding: 40px;
+    font-size: 20px;
+}
+.contacts .images{
+    text-align: center;
+}
+.contacts .images img{
+    width: 50px;
+    border-radius: 30%;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.Profile{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 40px;
+}
+.Profile .content{
+    text-align: center;
+}
+
+.Profile .content a{
+    text-decoration: none;
+    color: rgb(225, 255, 118);
+}
